@@ -14,17 +14,17 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main Farm", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "Setting Farming", Icon = "settings" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
-    Teleport = Window:AddTab({ Title = "Travel", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "Devil Fruit", Icon = "cherry" }),
-    Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
+    Main = Window:Tab({ Title = "Main Farm", Icon = "home" }),
+    Setting = Window:Tab({ Title = "Setting Farming", Icon = "settings" }),
+    Stats = Window:Tab({ Title = "Stats", Icon = "plus-circle" }),
+    Player = Window:Tab({ Title = "Player", Icon = "baby" }),
+    Teleport = Window:Tab({ Title = "Travel", Icon = "palmtree" }),
+    Fruit = Window:Tab({ Title = "Devil Fruit", Icon = "cherry" }),
+    Raid = Window:Tab({ Title = "Raid", Icon = "swords" }),
     Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Buy Items", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Miscellaneous", Icon = "list-plus" }),
-    Hop = Window:AddTab({ Title = "Hop", Icon = "wifi" }),
+    Shop = Window:Tab({ Title = "Buy Items", Icon = "shopping-cart" }),
+	Misc = Window:Tab({ Title = "Miscellaneous", Icon = "list-plus" }),
+    Hop = Window:Tab({ Title = "Hop", Icon = "wifi" }),
 }
 local Options = Fluent.Options
 do
